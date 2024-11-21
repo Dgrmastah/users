@@ -10,4 +10,58 @@ h1 {
   color: #333;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#listaUsuarios {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.usuario {
+  background-color: white;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.usuario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.usuario div {
+  flex: 1;
+}
+
+.usuario .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.usuario h3 {
+  margin: 0;
+}
+
+.usuario .address {
+  font-size: 0.9em;
+  color: #555;
+}
 
